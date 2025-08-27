@@ -1,0 +1,75 @@
+        .btn-fundo{
+            background: floralwhite;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+        }
+        .product-image {
+            height: 300px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .price-tag {
+            font-size: 1.5rem;
+            color: #198754;
+        }
+
+        .badge-promo {
+            color: aliceblue;
+            background: linear-gradient(to right, #830a0ad3, #ce0902);
+            border: 30px;
+        }
+
+        .description {
+            display: -webkit-box;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .btn-compra {
+            color: aliceblue;
+            background: linear-gradient(to right, #0d6efd, #0dcaf0);
+            border: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn-compra:hover {
+            background: linear-gradient(to right, #0b5ed7, #0ba9c8);
+            transform: scale(1.02);
+        }
+        .btn-outline-secondary {
+            color: black;
+            background: linear-gradient(to right, #c9520d, #ff6f2c);
+            cursor: pointer;
+            border: none;
+            font-weight: 600;
+            transition: all 0.3s
+        }
+
+        .btn-outline-secondary:hover {
+            transform: scale(1.02);
+
+        }
+
+        .badge-promo {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 1;
+            font-size: 0.8rem;
+            padding: 0.5rem 0.75rem;
+}
+
+        .bi-heart-fill {
+            color: #ce0902;
+
+}
+        .star-rating {
+            color: #FFD700;
+            font-size: 0.9rem;
+        }
